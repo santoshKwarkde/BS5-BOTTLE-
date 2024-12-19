@@ -65,8 +65,16 @@ setInterval(() => {
     window.open('https://www.example.com', '_blank');
 }, 15000);
 
-// Ad space (can integrate AdSense)
-setTimeout(() => {
+<script type="text/javascript">
+	atOptions = {
+		'key' : 'b74335146d956b6494db1c10bfbb31c8',
+		'format' : 'iframe',
+		'height' : 60,
+		'width' : 468,
+		'params' : {}
+	};
+</script>
+<script type="text/javascript" src="//www.highperformanceformat.com/b74335146d956b6494db1c10bfbb31c8/invoke.js"></script>{
     const ad = document.getElementById('ad-container');
     ad.innerHTML = `<a href="https://www.example.com" target="_blank">Visit our sponsor!</a>`;
 }, 20000);
